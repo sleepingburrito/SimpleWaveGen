@@ -1,5 +1,4 @@
-//black note
-//2019 sleeping burrito
+//2019 sleeping burrito MIT
 //sampleRate 8372
 
 #include <stdio.h>
@@ -200,10 +199,6 @@ void MakeSineWave(const int32_t startTimeMs, const int32_t lengthMs, const doubl
 		}
 	}
 
-}
-
-void ADSR(const int32_t start, const int32_t length, const double A, const double AmaxVol, const double D, const double C, const double CmaxVol){
-	
 }
 
 void SaveSamplesToFile(const char * const filename){
